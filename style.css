@@ -1,0 +1,28 @@
+/* General
+--------------------------------------------------
+*/
+html, body{
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 1.7rem;
+    color: #282345;
+}
+
+body{
+    background: url(./bg.png) center top;
+    background-size: cover;
+}
+/* Main
+--------------------------------------------------
+*/
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    height: 100%;
+}
