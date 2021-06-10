@@ -28,15 +28,15 @@ Open index.html on your favorite browser :)
 
 
 # How is the development of the project right now?
-<b>Last update:</b> XX/XX/2021
+<b>Last update:</b> 09/06/2021
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra molestie finibus. Donec lacinia quam at est lobortis tempus. Proin ac ipsum vel orci aliquam consectetur.
+Created the bg and the grid. Need to do the jquery questions hot dogsons :)
 
 <br/>
 
 # Credits
 
-Lorem ipsum dolor sit amet
+Banner was made with canva :)
 
 <i>Stay awesome Gothan!</i>
   
