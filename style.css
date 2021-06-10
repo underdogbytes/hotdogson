@@ -26,3 +26,9 @@ body{
 
     height: 100%;
 }
+/* Responsive
+--------------------------------------------------
+*/
+@media only screen and (max-width: 600px) {
+    .parent{grid-template-columns: 0.1fr 1fr;}
+}
