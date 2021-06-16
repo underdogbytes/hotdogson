@@ -25,6 +25,33 @@ input{
     border: 1px solid #a7a7a7;
     border-radius: 12px;
 }
+
+/* Header
+--------------------------------------------------
+*/
+header{
+    padding: 0 40px 0 0;
+    display: grid;
+    align-items: center;
+}
+header ul{
+    margin: 10px;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+header ul li{
+    padding: 10px;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #282345;
+    transition: 0.3s ease-in-out;
+}
+header ul li a:hover{
+    color: cornflowerblue;
+}
+
 /* Main
 --------------------------------------------------
 */
