@@ -16,6 +16,15 @@ body{
     background: url(./bg.png) center top;
     background-size: cover;
 }
+p{
+    font-size: 24px;
+}
+input{
+    width: -webkit-fill-available;
+    padding: 10px 20px;
+    border: 1px solid #a7a7a7;
+    border-radius: 12px;
+}
 /* Main
 --------------------------------------------------
 */
@@ -26,6 +35,38 @@ body{
 
     height: 100%;
 }
+
+/* Sign in / Sign up
+--------------------------------------------------
+*/
+.parent__box{
+    display: grid;
+    align-items: center;
+
+    height: 100%;
+}
+.box{
+    margin: auto;
+    padding: 20px;
+    width: 400px;
+    background: #ffffff;
+    border-radius: 12px;
+}
+.login__title{
+    text-align: center;
+}
+#login{
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    background: cornflowerblue;
+    color: #ffffff;
+}
+#known-user{ display: none; }
+#welcome-box{ display: none; }
+#welcome-back-login-text{ display: none; }
+#not-me{ display: none; }
 /* Responsive
 --------------------------------------------------
 */
