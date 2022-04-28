@@ -1,7 +1,16 @@
 <template>
     <div>
-        <div class="footer__first"></div>
-        <div class="footer__second"></div>
+        <div class="delivery__main">
+            <img src="@/assets/img/delivery-man.png" alt="" class="delivery__img">
+            <div class="delivery__content">
+                <img src="@/assets/img/delivery.svg" alt="" class="delivery__title">
+                <p>Ligue ou mande um whats para o número</p>
+                <p class="delivery__number">(xx) xxxx-xxxx</p>
+            </div>
+        </div>
+        <div class="delivery__copyright">
+            <p>Hotdogson - 2022</p>
+        </div>
     </div>
 </template>
 
@@ -14,10 +23,48 @@ export default {
 </script>
 
 <style>
-.footer__first{
+.delivery__main{
+    height: 20rem;
+    margin: 15rem 0 0 0;
+    padding: 0 10rem 0 0;
+    display: flex;
+    justify-content: end;
     background-color: #F99C73;
+    color: #181818;
 }
-.footer__second{
+.delivery__content{
+    margin: auto 0;
+    text-align: center;
+    max-width: 300px;
+}
+.delivery__title{
+    height: 5rem;
+    width: 100%;
+}
+.delivery__number{
+    font-weight: bolder;
+}
+.delivery__img {
+    position: absolute;
+    bottom: 0;
+    left: 5rem;
+    width: 400px;
+    height: 500px;
+}
+.delivery__copyright{
+    padding: 1rem 3rem;
+    height: 3rem;
     background-color: #FF8047;
+    color: #181818;
+    text-align: end;
+}
+@media screen and (min-width: 1024px) {
+.delivery__img {
+    position: absolute;
+    bottom: 0;
+    left: 10rem;
+    width: 400px;
+    height: 500px;
+}
 }
 </style>
