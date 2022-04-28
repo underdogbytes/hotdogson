@@ -3,7 +3,7 @@
 
 <template>
   <div class="header">
-    <img src="@/assets/img/logo.png" alt="">
+    <img src="@/assets/img/logo.svg" alt="">
   </div>
 </template>
 
@@ -16,5 +16,6 @@
 }
 .header img {
   margin: 10%;
+  height: 6rem;
 }
 </style>
