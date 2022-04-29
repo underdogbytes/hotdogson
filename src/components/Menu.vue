@@ -65,10 +65,10 @@ export default {
 
 <style>
 .menu__filter{
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 .menu__filter-btn{
     padding: 0.7rem 1rem;
@@ -85,13 +85,13 @@ export default {
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
 }
 .menu__item{
-    display: flex;
-    max-width: 560px;
+    display: block;
+    max-width: 300px;
     margin: 1rem auto;
 }
 .menu__item__img{
-    width: 270px;
-    height: 270px;
+    max-width: 270px;
+    max-height: 270px;
 }
 .menu__item__text-block{
     margin: 1rem;
@@ -112,5 +112,12 @@ export default {
     border-radius: 0.2rem;
     background-color: #FFC1A6;
     color: #4D4D4D;
+}
+@media screen and (min-width: 1024px) {
+    .menu__item{
+        display: flex;
+        max-width: 560px;
+        margin: 1rem auto;
+    }
 }
 </style>

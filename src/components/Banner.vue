@@ -10,9 +10,10 @@
 <style>
 .header{
   background-image: url(@/assets/img/header-bg.png);
-  background-size: contain;
+  background-size: cover;
   background-position: top;
-  height: 69vh;
+  min-height: 50vh;
+  max-height: 60vh;
 }
 .header img {
   margin: 10%;
