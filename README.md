@@ -7,8 +7,7 @@
 
 ## Summary
 
-[PREVIEW](#Preview) &diams; [ABOUT](#About) &diams; [GET STARTED](#Get-started) &diams; [PROJECT DEVELOPMENT STATUS](#Project-development-status) &diams; [THANKS](#Thanks) &diams;
-
+[PREVIEW](#Preview) &diams; [ABOUT](#About) &diams; [GET STARTED](#Get-started) &diams; [PROJECT DEVELOPMENT STATUS](#Project-development-status) &diams;
 ## Preview
 
 https://user-images.githubusercontent.com/37088290/180326214-59e74d01-c42a-4b8c-b1da-c72596bb4c7d.mp4
@@ -94,4 +93,4 @@ __Thank you for your support!__
 
 _... And stay awesome Gothan!_
   
-[PREVIEW](#Preview) &diams; [ABOUT](#About) &diams; [GET STARTED](#Get-started) &diams; [PROJECT DEVELOPMENT STATUS](#Project-development-status) &diams; [THANKS](#Thanks) &diams; [BACK TO TOP](#Project-name-here)
+[PREVIEW](#Preview) &diams; [ABOUT](#About) &diams; [GET STARTED](#Get-started) &diams; [PROJECT DEVELOPMENT STATUS](#Project-development-status) &diams; [BACK TO TOP](#Project-name-here)
