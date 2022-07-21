@@ -26,6 +26,10 @@ export default {
                     label: 'Combos',
                     category: 'combos'
                 },
+                {
+                    label: 'Todos',
+                    category: 'todos'
+                },
             ]
         }
     },

@@ -71,6 +71,10 @@ export default {
             // console.log('father', foodCategory)
             let tempList = []
 
+            if(foodCategory == 'todos'){
+                return this.menuFoodFiltered = this.menuFood
+            }
+
             this.menuFood.forEach(element => {
 
                 if(element.category  == foodCategory ){
