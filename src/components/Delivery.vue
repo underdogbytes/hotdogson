@@ -9,21 +9,24 @@
             </div>
         </div>
         <div class="delivery__copyright">
-            <p>Hotdogson - 2022</p>
+            <p>Hotdogson - {{ year }}</p>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    data(){
-        return{}
+    computed: {
+        year(){
+            let today = new Date()
+            return today.getFullYear()
+        }
     }
 }
 </script>
 
 <style>
-.delivery__main{
+.delivery__main {
     height: 20rem;
     margin: 15rem 0 0 0;
     padding: 0;
@@ -32,16 +35,16 @@ export default {
     background-color: #F99C73;
     color: #181818;
 }
-.delivery__content{
+.delivery__content {
     margin: auto 0;
     text-align: center;
     max-width: 300px;
 }
-.delivery__title{
+.delivery__title {
     height: 5rem;
     width: 100%;
 }
-.delivery__number{
+.delivery__number {
     font-weight: bolder;
 }
 .delivery__text{
@@ -52,9 +55,9 @@ export default {
 .delivery__img {
     position: absolute;
     bottom: 0;
-    max-width: 300px;
+    width: 100%;
 }
-.delivery__copyright{
+.delivery__copyright {
     padding: 1rem 3rem;
     height: 3rem;
     background-color: #FF8047;
@@ -62,7 +65,7 @@ export default {
     text-align: end;
 }
 @media screen and (min-width: 1024px) {
-    .delivery__main{
+    .delivery__main {
         padding: 0 10rem 0 0;
         justify-content: end;
     }
@@ -70,7 +73,7 @@ export default {
         position: absolute;
         bottom: 0;
         left: 10rem;
-        width: 400px;
+        max-width: 400px;
         height: auto;
     }
 }
