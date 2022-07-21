@@ -10,6 +10,6 @@ import Delivery from '../components/Delivery.vue';
   <Banner />
   <main>
     <Menu />
-    <Delivery />
   </main>
+  <Delivery />
 </template>
