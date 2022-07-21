@@ -10,18 +10,25 @@
   min-height: 80vh;
   max-height: 100vh;
 
+  display: grid;
+
   background-image: url(@/assets/img/header-bg.png);
   background-size: cover;
-  background-position: top;
+  background-position: right;
 }
 .banner__content{
   max-width: 1280px;
-  margin: auto;
+  margin: 5% 0;
+  left: 0;
   display: flex;
   justify-content: center;
 }
 .banner__logo{
-  height: 6rem;
-  margin: 4em 0 0 0;
+  height: clamp(8em, 10vw, 20em);
+  margin: 60% 0 0 0;
+}
+@media screen and (min-width: 1000px) {
+  .banner{ background-position: top; }
+  .banner__logo{ margin: 6em 0 0 0; }
 }
 </style>
