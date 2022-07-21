@@ -9,10 +9,8 @@ import { RouterLink, RouterView } from 'vue-router'
 <style>
 @import '@/assets/base.css';
 
-#app {
+main{
   max-width: 1280px;
   margin: 0 auto;
-
-  font-weight: normal;
 }
 </style>

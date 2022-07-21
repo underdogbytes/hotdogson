@@ -5,8 +5,8 @@ import Delivery from '../components/Delivery.vue';
 </script>
 
 <template>
+  <Banner />
   <main>
-    <Banner />
     <Menu />
     <Delivery />
   </main>
