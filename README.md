@@ -11,13 +11,14 @@
 
 ## Preview
 
-[![Watch the preview](./behance.png)](./demo.mp4)
+https://user-images.githubusercontent.com/37088290/180326214-59e74d01-c42a-4b8c-b1da-c72596bb4c7d.mp4
+
 
 __Figma:__
 <a href="https://www.figma.com/file/2RhE3NUqZwsZVx7r3xJrOq/HotDogson?node-id=0%3A1">figma/hotdogson</a>
 
 __Behance:__
-Coming soon
+<a href="https://www.behance.net/gallery/148699563/Website-Hotdogson">behance/hotdogson</a>
 
 
 ## About
@@ -75,15 +76,11 @@ npm run dev
 ```sh
 npm run build
 ```
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + whatever
   
 # Project development status
 __Last update:__ 21/07/2021
 
-I re-started this project to show my coding skills for an interview cause this is a project
+Well, did some improvements at components and soon I'll do the JWT auth stuff and its dashboard.
 
 To-do:
 
