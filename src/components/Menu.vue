@@ -2,12 +2,9 @@
     <div>
         <TitleImg :imgPath="title" />
 
-        <div class="menu__filter">
-            <span class="menu__filter__btn" v-for="filter in filters" :key="filter">{{ filter }}</span>
-        </div>
-
+        <FilterMenu v-on:selectFilter="filterFoodByCategory($event)" />
         <div class="menu__items">
-            <div class="menu__item" v-for="food in menuFood" :key="food">
+            <div class="menu__item" v-for="food in menuFoodFiltered" :key="food">
                 <div>
                     <img :src="food.thumb" alt="" class="menu__item__img">
                 </div>
@@ -24,10 +21,11 @@
 
 <script>
 import TitleImg from './Titles/TitleImg.vue'
+import FilterMenu from './FilterMenu.vue'
 import titleSrc from '@/assets/img/menu.svg'
 
 export default {
-    components: {TitleImg},
+    components: {TitleImg, FilterMenu},
     data(){
         return{
             title: titleSrc,
@@ -45,48 +43,49 @@ export default {
                     name: 'Bidu Bidu',
                     description: 'Pão, salsicha veggie, maionese especial, mostarda, catchup, vinagrete',
                     price: 'R$ 10,00',
-                    category: 'vegetariano'
+                    category: 'vegetarianos'
                 },
                 {
                     thumb: 'src/assets/img/food/hotdogson.svg',
                     name: 'Hotdogson Combo',
                     description: 'O clássico com 250g de batata frita e aquela coquinha gelada de 350ml!',
                     price: 'R$ 10,00',
-                    category: 'combo'
+                    category: 'combos'
                 },
                 {
                     thumb: 'src/assets/img/food/monstro-da-dungeon.svg',
                     name: 'Monstro da Dungeon',
                     description: 'Pãozão com salsicha, maionese especial, bacon, pepino, muito queijo e cebola roxa',
                     price: 'R$ 10,00',
-                    category: 'especial'
+                    category: 'especiais'
                 }
-            ]
+            ],
+            menuFoodFiltered: []
+        }
+    },
+    mounted(){
+        this.menuFoodFiltered = this.menuFood
+    },
+    methods: {
+        filterFoodByCategory(foodCategory){
+            // console.log('father', foodCategory)
+            let tempList = []
+
+            this.menuFood.forEach(element => {
+
+                if(element.category  == foodCategory ){
+                    tempList.push(element)
+                }
+
+            });
+
+            this.menuFoodFiltered = tempList
         }
     }
 }
 </script>
 
 <style>
-.menu__filter {
-    max-width: 800px;
-    margin: 0 auto 2rem;
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
-.menu__filter__btn {
-    padding: 0.7rem 1rem;
-    margin: 0.5em;
-
-    text-align: center;
-    font-size: 1rem;
-    color: #4D4D4D;
-
-    border-radius: 0.2rem;
-    background-color: #FFC1A6;
-}
-
 .menu__items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
