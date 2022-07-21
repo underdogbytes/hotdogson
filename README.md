@@ -58,11 +58,6 @@ $ cd hotdogson
 ```sh
  npm install
 ```
-
-### Compiles and hot-reloads for development
-```
-Type the commands here (ex: npm run dev)
-```
   
 #### Compile and Hot-Reload for Development
 
