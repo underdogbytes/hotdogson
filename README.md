@@ -11,20 +11,21 @@
 
 ## Preview
 
+[![Watch the preview](./behance.png)](./demo.mp4)
+
 __Figma:__
 <a href="https://www.figma.com/file/2RhE3NUqZwsZVx7r3xJrOq/HotDogson?node-id=0%3A1">figma/hotdogson</a>
 
 __Behance:__
 Coming soon
 
-<put some cool gif here>
 
 ## About
 
 This is an application for ficctional food company named Hotdogson, created using `VueJS` that shows a website and its dashboard.
 The main features are:
 
-- [ ] Website
+- [x] Website
 - [ ] Admin Dashboard
 - [ ] Client Dashboard
 
@@ -38,8 +39,10 @@ For more information about the it, check:
   
 You must have the down below to run the project locally:
 
-- <a href="#">example</a>
-- <a href="#">example</a>
+- <a href="https://nodejs.org/en/">node</a>
+- <a href="https://git-scm.com">git</a>
+- <a href="https://www.npmjs.com">npm</a>/<a href="https://yarnpkg.com">yarn</a>/package manager
+- <a href="https://vuejs.org">VueJS</a>
 
 ### Locally project setup
 
@@ -47,13 +50,13 @@ To clone the project, navigate to its folder and to install required packages, r
 
 ```sh
 $ git clone https://github.com/wolfhaltz/hotdogson.git
-$ cd hotdogson/
+$ cd hotdogson
 ```
   
 ### Project Setup
 
 ```sh
-TYpe the commands heres (ex: npm install)
+ npm install
 ```
 
 ### Compiles and hot-reloads for development
@@ -61,39 +64,17 @@ TYpe the commands heres (ex: npm install)
 Type the commands here (ex: npm run dev)
 ```
   
-### Compile and Minify for Production
+#### Compile and Hot-Reload for Development
 
 ```sh
-Type the commands here (ex: npm run build)
+npm run dev
 ```
-  
-### Run Headed Component Tests with [Testing Tools](https://tool-link)
+
+#### Compile and Minify for Production
 
 ```sh
-Type the commands here (ex: npm run test:unit # or `npm run test:unit:ci` for headless testing)
+npm run build
 ```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-  
-### Usage via Docker
-
-To build the container run:
-
-```sh
-docker-compose build 
-```
-
-...then run this:
-
-```
-docker-compose up
-```
-
-Open the website at http://localhost:3000 and its done! :D
 
 ## Recommended IDE Setup
 
@@ -107,13 +88,10 @@ I re-started this project to show my coding skills for an interview cause this i
 To-do:
 
 - [ ] Refactor some shit code
-- [ ] Website components
+- [ ] Improve Website components
+- [ ] JWT Auth
 - [ ] Dashboard Admin
 - [ ] Dashboard Client
-
-# Thanks
-
-Lorem ipsum dolor sit amet
 
 __Thank you for your support!__
 
