@@ -3,7 +3,7 @@
 [![Vue version](https://img.shields.io/badge/Vue-3.2.33-green.svg)](https://vuejs.org)
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/wolfhaltz/hotdogson)
 
-<img src="cool-banner-here-ma-frem.png" alt="banner" />
+<img src="banner.png" alt="banner" />
 
 ## Summary
 
